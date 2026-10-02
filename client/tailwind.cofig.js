@@ -1,23 +1,28 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
   darkMode: "class",
+
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+
   theme: {
     extend: {
-      fontFamily: { sans: ["Inter", "system-ui", "sans-serif"] },
-      colors: { navy: { 800: "#14203a", 900: "#0d1526", 950: "#080e1c" } },
-      keyframes: {
-        fade: {
-          from: { opacity: 0, transform: "translateY(6px)" },
-          to: { opacity: 1, transform: "none" },
-        },
-        slide: {
-          from: { opacity: 0, transform: "translateY(24px)" },
-          to: { opacity: 1, transform: "none" },
+      colors: {
+        navy: {
+          50: "#f0f4ff",
+          100: "#e0e9ff",
+          200: "#c7d7fe",
+          300: "#a5bcfc",
+          400: "#8199f8",
+          500: "#6075f1",
+          600: "#4657e5",
+          700: "#3946d0",
+          800: "#303baa",
+          900: "#2b3587",
+          950: "#151b3d",
         },
       },
-      animation: { fade: "fade .4s ease both", slide: "slide .25s ease both" },
     },
   },
+
   plugins: [],
 };
