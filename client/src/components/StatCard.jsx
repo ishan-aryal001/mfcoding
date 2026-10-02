@@ -1,4 +1,3 @@
-jsx
 import { ArrowUpRight, ArrowDownRight } from 'lucide-react';
 
 const tones = {

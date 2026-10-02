@@ -1,4 +1,3 @@
-jsx
 import { Pencil, Trash2, Plus, Minus, CalendarDays } from 'lucide-react';
 import ProgressBar from './ProgressBar';
 import { useFmt } from '../utils/format';

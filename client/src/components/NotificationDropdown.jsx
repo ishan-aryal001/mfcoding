@@ -1,4 +1,3 @@
-jsx
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Bell, AlertTriangle, CalendarClock, Target, TrendingUp, Info } from 'lucide-react';
 import api from '../services/api';

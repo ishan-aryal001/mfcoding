@@ -1,4 +1,3 @@
-jsx
 import { useEffect, useState } from 'react';
 import { budgetState } from '../utils/constants';
 

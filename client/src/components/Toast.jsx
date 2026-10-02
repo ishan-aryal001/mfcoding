@@ -1,4 +1,3 @@
-jsx
 import { createContext, useCallback, useContext, useState } from 'react';
 import { CheckCircle2, XCircle } from 'lucide-react';
 

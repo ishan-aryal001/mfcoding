@@ -1,4 +1,3 @@
-jsx
 import { NavLink } from 'react-router-dom';
 import { LayoutDashboard, ArrowLeftRight, PiggyBank, Target, Plus } from 'lucide-react';
 import { useUI } from '../context/UIContext';

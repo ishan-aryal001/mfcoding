@@ -1,4 +1,3 @@
-jsx
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Menu, Search, Sun, Moon } from 'lucide-react';

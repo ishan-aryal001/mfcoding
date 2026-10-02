@@ -1,4 +1,3 @@
-jsx
 import { Pencil, Trash2 } from 'lucide-react';
 import { catMeta } from '../utils/constants';
 import { useFmt } from '../utils/format';

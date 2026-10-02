@@ -1,4 +1,3 @@
-jsx
 import { NavLink } from 'react-router-dom';
 import { LayoutDashboard, ArrowLeftRight, PiggyBank, Target, BarChart3, Repeat, Lightbulb, Settings, LogOut, Wallet, X } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';

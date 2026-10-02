@@ -1,4 +1,3 @@
-jsx
 import { createContext, useContext, useEffect, useState } from 'react';
 import api, { getToken, setToken, clearToken } from '../services/api';
 

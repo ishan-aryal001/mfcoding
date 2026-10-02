@@ -1,4 +1,3 @@
-jsx
 export default function Avatar({ user, size = 36 }) {
   if (user?.avatar) return <img src={user.avatar} alt="" className="rounded-full object-cover" style={{ width: size, height: size }} />;
   return (

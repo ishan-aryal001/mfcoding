@@ -1,4 +1,3 @@
-jsx
 import { Pencil, Trash2 } from 'lucide-react';
 import ProgressBar from './ProgressBar';
 import { budgetState, catMeta } from '../utils/constants';

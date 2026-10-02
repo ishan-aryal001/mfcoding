@@ -1,4 +1,3 @@
-jsx
 export default function ChartCard({ title, subtitle, action, children, className = '' }) {
   return (
     <div className={`card animate-fade p-5 ${className}`}>

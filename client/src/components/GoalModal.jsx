@@ -1,4 +1,3 @@
-jsx
 import { useState } from 'react';
 import Modal from './Modal';
 import api, { errMsg } from '../services/api';

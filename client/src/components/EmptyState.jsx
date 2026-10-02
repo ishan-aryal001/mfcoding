@@ -1,4 +1,3 @@
-jsx
 export default function EmptyState({ icon: Icon, title, text, action, onAction }) {
   return (
     <div className="flex animate-fade flex-col items-center px-6 py-14 text-center">
