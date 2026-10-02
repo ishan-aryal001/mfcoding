@@ -4,7 +4,9 @@
 
 @layer base {
   body {
-    @apply bg-white dark:bg-slate-950;
+    body {
+      @apply bg-gray-50 dark:bg-slate-950;
+    }
   }
 }
 
